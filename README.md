@@ -1,4 +1,6 @@
 
+<br>
+
 # Creating a Python code base, to learn Python
 
 
@@ -47,6 +49,6 @@ In summary, the student, or hobbyist, can learn the basics of Python, and code b
 This is not a comprehensive repo, (yet), some of the files in the advanced directory are empty.
 Feel free to submit a PR with your own examples if you'd like.
 
-## _If you like this, then Give me a follow on GitHub, star and watch this repo_
+## _If you like this, then [Give me a follow on GitHub](https://github.com/LinuxUser255), & star and watch this repo_
 
 <br>
