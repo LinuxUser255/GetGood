@@ -49,8 +49,8 @@ def regex_example():
         else:
             print(f"   {email} is invalid")
 
-def main():
-    regex_example()
+#def main():
+regex_example()
 
-if __name__ == "__main__":
-    main()
+#if __name__ == "__main__":
+#    main()

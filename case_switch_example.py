@@ -17,12 +17,12 @@ def day_of_week(day: int) -> str:
         case _:
             return "Invalid day"
 
-def main():
+def case_switch():
     print("Day of Week Example using match statement (Python 3.10+)")
     print("-" * 50)
 
     for i in range(1, 9):
         print(f"Day {i}: {day_of_week(i)}")
 
-if __name__ == "__main__":
-    main()
+#if __name__ == "__main__":
+#    main()

@@ -39,8 +39,8 @@ def list_and_tuple_example():
     first, second, third, fourth = colors
     print(f"Unpacked colors: {first}, {second}, {third}, {fourth}")
 
-def main():
-    list_and_tuple_example()
+#def main():
+list_and_tuple_example()
 
-if __name__ == "__main__":
-    main()
+#if __name__ == "__main__":
+#    main()

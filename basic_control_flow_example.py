@@ -52,8 +52,8 @@ def basic_control_flow_example():
         print(i, end=" ")
     print("\n")
 
-def main():
+def run_it():
     basic_control_flow_example()
 
-if __name__ == "__main__":
-    main()
+#if __name__ == "__main__":
+    #main()

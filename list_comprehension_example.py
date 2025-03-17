@@ -37,8 +37,8 @@ def list_comprehension_example():
     print(f"   Original text: '{text}'")
     print(f"   Uppercase letters: {uppercase_letters}\n")
 
-def main():
-    list_comprehension_example()
+#def main():
+list_comprehension_example()
 
-if __name__ == "__main__":
-    main()
+#if __name__ == "__main__":
+#    main()

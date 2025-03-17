@@ -42,8 +42,7 @@ def dictionary_example():
     # Using get() method with a default value
     print(f"\nStudent's grade: {student.get('grade', 'Not Available')}")
 
-def main():
-    dictionary_example()
+dictionary_example()
 
-if __name__ == "__main__":
-    main()
+#if __name__ == "__main__":
+#    main()
