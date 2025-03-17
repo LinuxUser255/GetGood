@@ -30,12 +30,15 @@ def count_up_to(max_value):
 
 
 if __name__ == "__main__":
-    counter = count_up_to(10000000)
+    print("A Generator function Example:")
+    print('-' * 20)
+    counter = count_up_to(30)
 
     for number in counter:
-        print(number)
+        print(number,counter)
 
+# About Generators:
 # Generators are used when you want a space efficient way of code execution,
 # or calculating large results that don't fit into memory.
-# This generator perform a calculation on the specific value, needed  at that time
-# saves memory by not storing all the results in memory at once.
+# This generator performs a calculation on the specific value needed at that time,
+# saving memory by not storing all the results in memory at once.

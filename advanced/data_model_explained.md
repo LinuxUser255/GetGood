@@ -45,3 +45,29 @@ In your `Polynomial` class example, we can see this pattern clearly:
 - `__len__` defines what it means for a polynomial to have a length
 
 This approach is what makes Python both flexible and intuitive - objects can define their own behavior while maintaining a consistent interface through these protocols.
+
+### Making the original Polynomial class & dunder methods script interactive, and not just static
+**The original**
+
+```python
+# This is the Protocol view of Python.
+class Polynomial:
+    def __init__(self, coefficients):
+        self.coefficients = coefficients
+
+
+    def __repr__(self): # implemented by calling __repr__ on some component
+        return 'Polynomial(*{!r})'.format(self.coefficients)
+
+    def __add__(self, other): # add is implemented by adding up some components
+        return Polynomial([a + b for a, b in zip(self.coefficients, other.coefficients)])
+
+    def __len__(self):
+        return len(self.coefficients) # len is implemented by being called on a constituent object
+
+    def __call__(self, *args, **kwargs):
+        pass
+
+p1 = Polynomial([1, 2, 3])
+p2 = Polynomial([3, 4, 3])
+```
