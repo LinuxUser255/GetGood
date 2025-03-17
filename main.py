@@ -23,7 +23,6 @@ def main():
     comp_squares()
     cube_numbers()
     get_even_numbers()
-    # call the generator function from generators.py
     square_numbers(limit=5)
 
 
