@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-from typing import List, Tuple, Set, Dict, Union
+from typing import List, Tuple, Set, Dict, Union, Callable
+
 
 # Description: This script is about demonstrating various data types in Python.
 def about() -> None:
@@ -80,9 +81,18 @@ def type_hinting_example(age: int, name: str) -> None:
 def add(a: float, b: float) -> float:
     return a + b
 
+# basic lambda function example
+def lambda_example() -> None:
+    print()
+    add_function: Callable[[float, float], float] = lambda a, b: a + b
+    print(f'This is a Lambda function example: {add_function(2, 3)}')
+    print()
+
+# function type hinting example
+
+
 def for_loop_example() -> None:
     print("For loop example")
-    print(20*"-")
     for i in range(5):
         print(f'Current number is: {i}')
         print("The counting begins with 0")
@@ -158,6 +168,7 @@ def main() -> None:
     convert_integer_to_string()
     type_hinting_example(30, 'John')
     for_loop_example()
+    lambda_example()
     while_loop_example()
     exception_handling()
     control_flow_user_input()
